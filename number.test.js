@@ -1,4 +1,4 @@
-const {getEvenNumbers} = require('./number.js');
+const {getEvenNumbers} = require('./number.js') ;
 
 test('returns even numbers from an array', () => {
   expect(getEvenNumbers([1, 2, 3, 4, 5, 6])).toEqual([2, 4, 6]);
